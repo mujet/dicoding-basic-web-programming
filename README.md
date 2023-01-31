@@ -1,5 +1,7 @@
 # dicoding-basic-web-programming
 
+Final project submission for dicoding course 'Dasar Pemrograman Web', Creating a static website.
+
 ## Here are the submission criteria:
 
 1. There are header, footer, main, article, dan aside inside the HTML file.
