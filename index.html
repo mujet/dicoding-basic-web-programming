@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>My Portofolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="home" class="card">
+                <img src="assets/image/welcome.png" class="featured-images" alt="welcome" title="welcome">
+                <div>
+                    <br>
+                    <h2>Hi Welcome to my Page !</h2>
+                    <p> My name is Zen, and this is my portofolio website. <br>
+                        I love hiking, movie, coffee and cheeseburger!
+                        <br>
+                        <br>
+                        <br>
+                        Scroll to see my projects.
+                    </p>
+                    <h1>
+                        <a href="#projects"><i class="fa-solid fa-circle-down"></i></a>
+                    </h1>
+                </div>
+            </article>
+
+            <article id="projects" class="card">
+                <h2>MY PROJECTS</h2>
+                <div class="list-project">
+                    <div class="project-card">
+                        <img src="assets/image/project1.png" class="featured-images" alt="project1" title="project1">
+                        <div>
+                            <h3>My Portofolio Website</h3>
+                            <p>It's a website to showcase all of my projects.</p>
+                            <p>This is my first personal project that I do after I learned basic HTML, CSS, and Javascript.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="assets/image/project2.PNG" class="featured-images" alt="project1" title="project1">
+                        <div>
+                            <h3>Simple Calculator</h3>
+                            <p>It's a simple calculator !.</p>
+                            <p>This is my personal project where I learn about Javascript.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+
+            <article id="contactme" class="card">
+                <h2>GET IN TOUCH</h2>
+
+                <form action="">
+
+                    <div>
+                        <label for="input-name">Name</label><br>
+                        <input type="text" name="" id="input-name">
+                    </div>
+
+                    <div>
+                        <label for="input-email">Email</label><br>
+                        <input type="email" name="" id="input-email">
+                    </div>
+
+                    <div>
+                        <label for="input-phone">Phone Number</label><br>
+                        <input type="number" name="" id="input-phone">
+                    </div>
+
+                    <div>
+                        <label for="input-subject">Subject</label><br>
+                        <input type="text" name="" id="input-subject">
+                    </div>
+
+                    <div>
+                        <label for="input-message">Your Message</label><br>
+                        <textarea name="" id="input-message" cols="10" rows="10" style="resize: none;"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button type="button" onclick="submitData()">submit</button>
+                    </div>
+
+                </form>
+            </article>
+        </div>
+
+        <aside class="profile">
+            <article class="card">
+                <header>
+                    <h2>About Me</h2>
+                    <figure>
+                        <img src="assets/image/profil.JPG">
+                        <figcaption>Krisna Zain Murtafi'</figcaption>
+                    </figure>
+                </header>
+
+                <section>
+                    <h3>My Info</h3>
+                    <table>
+                        <tr>
+                            <th>Birthplace</th>
+                            <td>Banjarnegara</td>
+                        </tr>
+                        <tr>
+                            <th>Age</th>
+                            <td>23 yo</td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <th>Favorite Food</th>
+                            <td>Cheeseburger!</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2022, Krisna Zain Murtafi'</p>
+    </footer>
+</body>
+
+<script src="assets/javascript/project.js"></script>
+
+</html>
